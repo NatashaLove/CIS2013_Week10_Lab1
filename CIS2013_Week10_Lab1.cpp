@@ -3,13 +3,13 @@
 using namespace std;
 
 int main () {
-	int len;
+	int len;// 2d array
 	int cont =1;
 	
 	while (cont !=0){
 	
 	cout << "How long do you want your array?" << endl;
-	cin>> len;
+	cin>> len;// 2d array
 	
 	int *a;
 	a= new int [len];
@@ -17,7 +17,7 @@ int main () {
 	for (int i=0; i<len; i++) {
 		
 		cout << "Int number " <<i<< " should be : ";
-		cin >> a [i];
+		cin >> a [i];//random for game
 	}
 	
 	cout << endl << "your list of numbers is: "<< endl;
